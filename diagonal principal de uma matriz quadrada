@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+	int matrix[3][3] = { {9, 0, 1}, {7, 6, 2}, {8, 5, 1} };
+	
+	int x,y;
+	for (x = 0; x< 3; x++){
+		for(y = 0; y < 3; y++){
+			
+			if(x==y)
+       printf("matrix[%d][%d]=%d",x, y, matrix[x][y]);
+		}
+	printf("\n");
+	}
+	return 0;
+}
